@@ -8,17 +8,19 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Use the standard libraries in python for finding linear regression.
+1.Import the standard libraries.
 
-2. Set variables for assigning dataset values.
+2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
 
-3. Import linear regression from sklearn.
+3.Import LabelEncoder and encode the dataset.
 
-4. Predict the values of array.
+4.Import LogisticRegression from sklearn and apply the model on the dataset.
 
-5. Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+5.Predict the values of array.
 
-6. Obtain the graph.
+6.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+
+7.Apply new unknown values.
 
 ## Program:
 ```py
